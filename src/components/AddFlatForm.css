@@ -1,0 +1,76 @@
+.add-flat-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-flat-form h2 {
+    text-align: center;
+    color: #FF385C;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.add-flat-form input[type="text"],
+.add-flat-form input[type="number"],
+.add-flat-form input[type="file"],
+.add-flat-form input[type="checkbox"],
+.add-flat-form label {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.add-flat-form label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.add-flat-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.add-flat-form .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.add-flat-form button {
+    width: 48%;
+    padding: 10px;
+    background-color: #FF385C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.add-flat-form button:hover {
+    background-color: #e0314a;
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

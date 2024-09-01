@@ -1,0 +1,66 @@
+.flats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .flat-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .flat-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .flat-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .flat-details {
+    padding: 15px;
+  }
+  
+  .flat-city {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .flat-address {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .flat-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff5a5f;
+  }
+  
+  .flat-ac {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .flat-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%; /* Ajusta para que se adapten al grid */
+    box-sizing: border-box;
+  }
+  
+  
+  

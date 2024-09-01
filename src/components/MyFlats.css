@@ -1,0 +1,166 @@
+.main-container {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #FF385C;
+  margin-right: auto;
+}
+
+.header .filters {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.header .filter-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.header .filter-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #FF385C;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header .filter-button:hover {
+  background-color: #e0314a;
+}
+
+.header .header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .add-flat-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #FF385C;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header .add-flat-button:hover {
+  background-color: #e0314a;
+}
+
+.header .logout-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header .logout-button:hover {
+  background-color: #c0392b;
+}
+
+.flats-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-height: 600px;
+}
+
+.flat-item {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  color: #333;
+  width: 300px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
+}
+
+.flat-item h2 {
+  color: #000;
+  font-weight: bold;
+}
+
+.flat-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.flat-item .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.flat-item button {
+  padding: 10px;
+  background-color: #32cf2c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 48%;
+}
+
+.flat-item button:hover {
+  background-color: #28a428;
+}
+
+.favorite-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.favorite-button.favorited {
+  color: red;
+}
+
+  
